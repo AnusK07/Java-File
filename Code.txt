@@ -19,6 +19,14 @@
   <button id="change">Change Style</button>
 </div>
 
+<div class="box">
+  <h3>Mouse Event Demonstrations</h3>
+  <div class="event hover">Hover over me to change color</div>
+  <div class="event dblclick">Double-click me to hide</div>
+  <div class="event press">Press mouse down here to grow</div>
+  <div class="event style">This box will change style</div>
+  <button id="change">Change Style</button>
+</div>
 <script>
   $(function(){
     $(".hover").hover(function(){ $(this).css("background","#d1e7dd") }, function(){ $(this).css("background","") });
@@ -31,4 +39,5 @@
   });
 </script>
 </body>
+
 </html>
